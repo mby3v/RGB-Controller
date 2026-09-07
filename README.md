@@ -50,7 +50,7 @@ Arduino IDE > Kütüphane Yöneticisi üzerinden kurulması gerekenler:
 
 Kurulum
 
-1. `RGB_Controller/RGB_Controller.ino` dosyasını Arduino IDE ile açın.
+1. `rgb_panel/rgb_panel.ino` dosyasını Arduino IDE ile açın.
 2. Kart olarak **NodeMCU 1.0 (ESP-12E Module)** seçin.
 3. Kodu karta yükleyin.
 4. Cihaz açıldığında oluşturacağı `NodeMCU-LED-Kontrol` isimli Wi-Fi ağına bağlanarak ev ağınızın bilgilerini girin.
