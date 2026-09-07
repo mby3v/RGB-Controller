@@ -65,3 +65,7 @@ Görseller ve Animasyonlar
 ### Efekt Demoları
 ![Animasyon 1](gif1.gif)
 ![Animasyon 2](gif2.gif)
+
+### Web Arayüzü
+![Arayüz 1](foto3.png)
+![Arayüz 2](foto4.png)
