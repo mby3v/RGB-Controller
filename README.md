@@ -27,7 +27,7 @@ Donanım Gereksinimleri
 > 1. İkinci PCA9685 modülünün adresini **0x41** yapmak için kart üzerindeki **A0** adres lehim köprüsü birleştirilmelidir (varsayılan: 0x40).
 > 2. 5V ve 12V güç kaynaklarının **GND (eksi)** hatları birbirine bağlanarak ortak şase yapılmalıdır.
 
-## 🔌 Bağlantı Şeması
+Bağlantı Şeması
 
 ![Devre Şeması](schema.jpg)
 
@@ -38,10 +38,20 @@ Arduino IDE > Kütüphane Yöneticisi üzerinden kurulması gerekenler:
 * `WiFiManager` (tzapu)
 * `ESP8266WiFi` & `ESP8266WebServer` (ESP8266 board paketiyle gelir)
 
-## 🚀 Kurulum
+Kurulum
 
 1. `RGB_Controller/RGB_Controller.ino` dosyasını Arduino IDE ile açın.
 2. Kart olarak **NodeMCU 1.0 (ESP-12E Module)** seçin.
 3. Kodu karta yükleyin.
 4. Cihaz açıldığında oluşturacağı `NodeMCU-LED-Kontrol` isimli Wi-Fi ağına bağlanarak ev ağınızın bilgilerini girin.
 5. Tarayıcınızdan `http://ledpanel.local` veya seri monitörde yazan IP adresine (`192.168.1.202`) gidin.
+
+Görseller ve Animasyonlar
+
+### Proje Görselleri
+![Fotoğraf 1](foto1.jpg)
+![Fotoğraf 2](foto2.jpg)
+
+### Efekt Demoları
+![Animasyon 1](gif1.gif)
+![Animasyon 2](gif2.gif)
